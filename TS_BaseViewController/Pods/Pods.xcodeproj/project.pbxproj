@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0094F8E0098AE74EA84AE9B09F794263 /* NSString+FirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F032863C772AC8C528391B6721FE738 /* NSString+FirstLetter.m */; };
+		12C928F1C21E3A89DEB679A5DD369A14 /* NSString+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 8652959A92ED039A461401098FAE47C3 /* NSString+Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E31DEC40EA241D2D7CCA9F0239F9543 /* JXTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D7D10903509D0D1A45C9A4D957D71 /* JXTAlertController.m */; };
+		4492E2737243D281467F6388C3C97C51 /* UIColor+ColorTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E9D5601EE3A66E50112EC8A0B0A6A0 /* UIColor+ColorTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48289D9342412F6E372EC7D20EE3BF5D /* JXTAlertManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F424819A507FA79C8848FD0D1E15AC /* JXTAlertManager-dummy.m */; };
+		492E1C02743E3CC4D7DFC85F63C9AD8D /* JXTAlertManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E8E78DF75249161D167BE3CB2B334A /* JXTAlertManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56231EACF106E3C5184964A37304A199 /* TS_ToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF31D8D3AFF1310785F2E32AF3A03DD /* TS_ToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E800E04CD4FBD3FC36A1BF771356941 /* NSString+ConvertDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 54162E9F6081FEA0C986FFA52BBCD13E /* NSString+ConvertDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F3631B1828DD74C4832125B4BFD3501 /* NSString+CaculateHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8539F12E8B52545961B6A37DF5D682 /* NSString+CaculateHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		611869FC3A8F35CE9C79BF531258FCC9 /* OpenUrl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDB9B40F3AB784B800539AD84887729 /* OpenUrl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632B9F2972F8B35963B8C3F5B928ED7B /* UIColor+ColorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA4B3815A33BF59A6662D88E9E43BD /* UIColor+ColorTool.m */; };
+		642592AA6465F5C1EB0968F24C40241F /* UIImage+Cast.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D07969245B07A99E711AFBF1186EA67 /* UIImage+Cast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65F9D5EDAE223BAEFD2CC8B21B2F8DC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		66952533F0591F0056694AC50CF97433 /* Pods-TS_BaseViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CD76A871D92826DDB4A245BBFF1C0D /* Pods-TS_BaseViewController-dummy.m */; };
+		66C2C2174BFA1A5B7AF610D0D90E1961 /* JXTAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 058D89AC26AFDDECB4DEC60DFF2FF2AA /* JXTAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76DB35450583BBE0AEC14824976132CC /* AppStoreUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 38818A250E36764911E42EFB84F5C44C /* AppStoreUtil.m */; };
+		83F01CAE4023E4D248EFA7B154A11E5B /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FB88AF5D46931F339DF81F348D1E81 /* NSString+Util.m */; };
+		96D520BA0E3F738C05C14C941BD21C3A /* AppStoreUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C7BBD901140FE0CCCF2625C6E49C4C5 /* AppStoreUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9767D49F79894C0F6779FA5FDA2A28B3 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E3FDAE750BE3755640BC08F39F2981 /* DateUtil.m */; };
+		9AA721350B2A7899C22A5CDECCD49523 /* NSString+ConvertDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 532555AA5373652C224D8E7140E6545F /* NSString+ConvertDate.m */; };
+		A09E5445FDE7EBBB90B820DBDB563B1D /* ZCChinaLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E28AC7EBFDAB47EF1B7063B1A6A7D11 /* ZCChinaLocation.m */; };
+		A73F333B1C20C47B33ADC4CE0F5E1537 /* TS_ToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 680C42F967579089E43BE638732D1CCE /* TS_ToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF418EB4F0A5020CF69D1A2BD330C92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		AF32A174B90DF2105AECAD57B9559969 /* UIImage+Cast.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A483C53CA22675D6DEA22F339C02F4 /* UIImage+Cast.m */; };
+		B2A1C9FB202BABC0240BB4826BC396DA /* ZCChinaLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDF9A27C97FD55EC4E77D523DCBDCDD /* ZCChinaLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B89D527C3E397FFC684A951F7EA8181D /* JXTAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 90467F563F6757418063136BBE6E9AEA /* JXTAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9E8916817792191EDCAD53B28F3622A /* NSString+ByteLength.m in Sources */ = {isa = PBXBuildFile; fileRef = C81F173EE822FCA22C1B361A56D4BED3 /* NSString+ByteLength.m */; };
+		BE30366FF47469E4A974224C3AF09391 /* TS_ToolKitHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 499DB4C646C42361842C7675186612A1 /* TS_ToolKitHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0300D6261BD0C74C1D942A70706CE21 /* NSString+ByteLength.h in Headers */ = {isa = PBXBuildFile; fileRef = 08BDD0DDDB650C4D5D89210A17567488 /* NSString+ByteLength.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C207A7E7863D96335BB14767CFD73C07 /* NSString+FirstLetter.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDEE48D9CC89836406B1AD50A1D218A /* NSString+FirstLetter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3B1D06B8FD93EB3CB03E338D275CA6A /* OpenUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E271362CDE10C91D2BFB014440AC01 /* OpenUrl.m */; };
+		D25141D903705D0D727B218F5E13DDD3 /* NSString+CaculateHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 2823040254B84F1B0805E9C39D5B6048 /* NSString+CaculateHeight.m */; };
+		D60FE6D1629DFC7AB0BBACECE7DE74E8 /* JXTAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E87A8C62EAC8DE3966E643970752DF /* JXTAlertView.m */; };
+		DBD3738F9D0F3863267A48B53785FC26 /* JXTAlertManagerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB2534DFCF90F342ECD112373375754 /* JXTAlertManagerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC81FCBB08A5510B6DA7A2FA296CF5DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+		E4EE96C0EA4F86A6BF4B923ADB7500E4 /* Pods-TS_BaseViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F61345929DBFF78BF64535767F5EA0 /* Pods-TS_BaseViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E888CE6ED0BE7F4D374EF943411B0BD5 /* DateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ABDE864219F6D3FFC936BAE0520CEC5 /* DateUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA3E61AC30AFA47BA264A525B3DB4BCB /* TS_ToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0287A2CD684EADEFCC42CA3E10755AA3 /* TS_ToolKit-dummy.m */; };
+		F33E7CA42B25D3CF04DCEDED8CB96480 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08CE0C04F813C33920EB64D040FD3A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D879BABAAD006AEAFAACEBC56CF46058;
+			remoteInfo = TS_ToolKit;
+		};
+		1B4D39FFFEF8BA83DC3953C6637C02C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 762F288645F781AD824C0CE23B3904AE;
+			remoteInfo = JXTAlertManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0287A2CD684EADEFCC42CA3E10755AA3 /* TS_ToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TS_ToolKit-dummy.m"; sourceTree = "<group>"; };
+		058D89AC26AFDDECB4DEC60DFF2FF2AA /* JXTAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXTAlertController.h; path = JXTAlertManager/AlertController/JXTAlertController.h; sourceTree = "<group>"; };
+		06C3D52F2E43DE769291BFD070F2F657 /* JXTAlertManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXTAlertManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E87A8C62EAC8DE3966E643970752DF /* JXTAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXTAlertView.m; path = JXTAlertManager/AlertView/JXTAlertView.m; sourceTree = "<group>"; };
+		08A979F21505C4EF698F0165B99A7F77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08BDD0DDDB650C4D5D89210A17567488 /* NSString+ByteLength.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ByteLength.h"; path = "Code/NSString+ByteLength/NSString+ByteLength.h"; sourceTree = "<group>"; };
+		1B1D7D10903509D0D1A45C9A4D957D71 /* JXTAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXTAlertController.m; path = JXTAlertManager/AlertController/JXTAlertController.m; sourceTree = "<group>"; };
+		20A483C53CA22675D6DEA22F339C02F4 /* UIImage+Cast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Cast.m"; path = "Code/UIImage+Cast/UIImage+Cast.m"; sourceTree = "<group>"; };
+		21E8E78DF75249161D167BE3CB2B334A /* JXTAlertManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXTAlertManager-umbrella.h"; sourceTree = "<group>"; };
+		262F78EC73CC4422FF865E0F63CAE8DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2823040254B84F1B0805E9C39D5B6048 /* NSString+CaculateHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+CaculateHeight.m"; path = "Code/NSString+CaculateHeight/NSString+CaculateHeight.m"; sourceTree = "<group>"; };
+		28FB88AF5D46931F339DF81F348D1E81 /* NSString+Util.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Util.m"; path = "Code/NSString+Util/NSString+Util.m"; sourceTree = "<group>"; };
+		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35CA30965F31A79082989E689DE208CF /* JXTAlertManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXTAlertManager.xcconfig; sourceTree = "<group>"; };
+		38818A250E36764911E42EFB84F5C44C /* AppStoreUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AppStoreUtil.m; path = Code/AppStoreUtil/AppStoreUtil.m; sourceTree = "<group>"; };
+		3EDB9B40F3AB784B800539AD84887729 /* OpenUrl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenUrl.h; path = Code/OpenUrl/OpenUrl.h; sourceTree = "<group>"; };
+		3FD3484B9F5AC09D347EB3158C9308D3 /* Pods-TS_BaseViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TS_BaseViewController.modulemap"; sourceTree = "<group>"; };
+		488FC1045ADED5F6B53FA8D62BF3EA2A /* TS_ToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TS_ToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		499DB4C646C42361842C7675186612A1 /* TS_ToolKitHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TS_ToolKitHeader.h; path = Code/TS_ToolKitHeader.h; sourceTree = "<group>"; };
+		4C7BBD901140FE0CCCF2625C6E49C4C5 /* AppStoreUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppStoreUtil.h; path = Code/AppStoreUtil/AppStoreUtil.h; sourceTree = "<group>"; };
+		4F032863C772AC8C528391B6721FE738 /* NSString+FirstLetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FirstLetter.m"; path = "Code/NSString+FirstLetter/NSString+FirstLetter.m"; sourceTree = "<group>"; };
+		52B915E1DF4CE423F268C40BC5087BE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		532555AA5373652C224D8E7140E6545F /* NSString+ConvertDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ConvertDate.m"; path = "Code/NSString+ConvertDate/NSString+ConvertDate.m"; sourceTree = "<group>"; };
+		54162E9F6081FEA0C986FFA52BBCD13E /* NSString+ConvertDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ConvertDate.h"; path = "Code/NSString+ConvertDate/NSString+ConvertDate.h"; sourceTree = "<group>"; };
+		54E9D5601EE3A66E50112EC8A0B0A6A0 /* UIColor+ColorTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ColorTool.h"; path = "Code/UIColor/UIColor+ColorTool.h"; sourceTree = "<group>"; };
+		5ABDE864219F6D3FFC936BAE0520CEC5 /* DateUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DateUtil.h; path = Code/DateUtil/DateUtil.h; sourceTree = "<group>"; };
+		5C362B5E64936616C4CE3498E2F77DC6 /* Pods-TS_BaseViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TS_BaseViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		5DB2534DFCF90F342ECD112373375754 /* JXTAlertManagerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXTAlertManagerHeader.h; path = JXTAlertManager/JXTAlertManagerHeader.h; sourceTree = "<group>"; };
+		680C42F967579089E43BE638732D1CCE /* TS_ToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TS_ToolKit-umbrella.h"; sourceTree = "<group>"; };
+		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		75F61345929DBFF78BF64535767F5EA0 /* Pods-TS_BaseViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TS_BaseViewController-umbrella.h"; sourceTree = "<group>"; };
+		7D07969245B07A99E711AFBF1186EA67 /* UIImage+Cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Cast.h"; path = "Code/UIImage+Cast/UIImage+Cast.h"; sourceTree = "<group>"; };
+		7E28AC7EBFDAB47EF1B7063B1A6A7D11 /* ZCChinaLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCChinaLocation.m; path = Code/ZCChinaLocation/ZCChinaLocation.m; sourceTree = "<group>"; };
+		7FE88AE8511829CF09101926CB7F57C6 /* Pods_TS_BaseViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TS_BaseViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85ED421731AFE091694F3CEA93CAB4F7 /* JXTAlertManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXTAlertManager.modulemap; sourceTree = "<group>"; };
+		8652959A92ED039A461401098FAE47C3 /* NSString+Util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Util.h"; path = "Code/NSString+Util/NSString+Util.h"; sourceTree = "<group>"; };
+		8F9F936E05AA00DE6675FEC34650AF4A /* Pods-TS_BaseViewController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TS_BaseViewController-acknowledgements.plist"; sourceTree = "<group>"; };
+		90467F563F6757418063136BBE6E9AEA /* JXTAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXTAlertView.h; path = JXTAlertManager/AlertView/JXTAlertView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
+		9BDDAE84B74E17259C78B25D44C2C037 /* JXTAlertManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXTAlertManager-prefix.pch"; sourceTree = "<group>"; };
+		9FF31D8D3AFF1310785F2E32AF3A03DD /* TS_ToolKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TS_ToolKit.h; path = Code/TS_ToolKit.h; sourceTree = "<group>"; };
+		AEA266FD9A2B929F5005E443BBB6121A /* Pods-TS_BaseViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TS_BaseViewController.release.xcconfig"; sourceTree = "<group>"; };
+		BB97EBACB94914727A0DEE2BA133CE3B /* TS_ToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TS_ToolKit-prefix.pch"; sourceTree = "<group>"; };
+		BE03EF0F60F80EED6217123DB1440A6A /* Pods-TS_BaseViewController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TS_BaseViewController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C81F173EE822FCA22C1B361A56D4BED3 /* NSString+ByteLength.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ByteLength.m"; path = "Code/NSString+ByteLength/NSString+ByteLength.m"; sourceTree = "<group>"; };
+		C9F424819A507FA79C8848FD0D1E15AC /* JXTAlertManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXTAlertManager-dummy.m"; sourceTree = "<group>"; };
+		CA948B3D7F85FE9433DC568CBA33D983 /* TS_ToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TS_ToolKit.modulemap; sourceTree = "<group>"; };
+		CEDF9A27C97FD55EC4E77D523DCBDCDD /* ZCChinaLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCChinaLocation.h; path = Code/ZCChinaLocation/ZCChinaLocation.h; sourceTree = "<group>"; };
+		D1E3FDAE750BE3755640BC08F39F2981 /* DateUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DateUtil.m; path = Code/DateUtil/DateUtil.m; sourceTree = "<group>"; };
+		D5CD76A871D92826DDB4A245BBFF1C0D /* Pods-TS_BaseViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TS_BaseViewController-dummy.m"; sourceTree = "<group>"; };
+		E40AE57B5B65A48F99BB452CE79F94E7 /* Pods-TS_BaseViewController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TS_BaseViewController-frameworks.sh"; sourceTree = "<group>"; };
+		E6E271362CDE10C91D2BFB014440AC01 /* OpenUrl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OpenUrl.m; path = Code/OpenUrl/OpenUrl.m; sourceTree = "<group>"; };
+		E79D7628F679AE1473E186C6ADA85516 /* TS_ToolKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TS_ToolKit.xcconfig; sourceTree = "<group>"; };
+		EE8539F12E8B52545961B6A37DF5D682 /* NSString+CaculateHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+CaculateHeight.h"; path = "Code/NSString+CaculateHeight/NSString+CaculateHeight.h"; sourceTree = "<group>"; };
+		F0BA4B3815A33BF59A6662D88E9E43BD /* UIColor+ColorTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ColorTool.m"; path = "Code/UIColor/UIColor+ColorTool.m"; sourceTree = "<group>"; };
+		FA2AF91403EC58D74A3DED5800CF6E0A /* Pods-TS_BaseViewController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TS_BaseViewController-resources.sh"; sourceTree = "<group>"; };
+		FCDEE48D9CC89836406B1AD50A1D218A /* NSString+FirstLetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FirstLetter.h"; path = "Code/NSString+FirstLetter/NSString+FirstLetter.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A54D6CBB96993F7A645D2872E805C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F9D5EDAE223BAEFD2CC8B21B2F8DC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594C4B170BF725293816DD59B3445729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF418EB4F0A5020CF69D1A2BD330C92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE6C9B6CB530C7F68CC7F2EFF296E1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33E7CA42B25D3CF04DCEDED8CB96480 /* Foundation.framework in Frameworks */,
+				DC81FCBB08A5510B6DA7A2FA296CF5DA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
+				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06CDD10DE71306278CF89108B3036DFD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		443500AC7D922E7589101B54B7B79837 /* TS_ToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				4C7BBD901140FE0CCCF2625C6E49C4C5 /* AppStoreUtil.h */,
+				38818A250E36764911E42EFB84F5C44C /* AppStoreUtil.m */,
+				5ABDE864219F6D3FFC936BAE0520CEC5 /* DateUtil.h */,
+				D1E3FDAE750BE3755640BC08F39F2981 /* DateUtil.m */,
+				08BDD0DDDB650C4D5D89210A17567488 /* NSString+ByteLength.h */,
+				C81F173EE822FCA22C1B361A56D4BED3 /* NSString+ByteLength.m */,
+				EE8539F12E8B52545961B6A37DF5D682 /* NSString+CaculateHeight.h */,
+				2823040254B84F1B0805E9C39D5B6048 /* NSString+CaculateHeight.m */,
+				54162E9F6081FEA0C986FFA52BBCD13E /* NSString+ConvertDate.h */,
+				532555AA5373652C224D8E7140E6545F /* NSString+ConvertDate.m */,
+				FCDEE48D9CC89836406B1AD50A1D218A /* NSString+FirstLetter.h */,
+				4F032863C772AC8C528391B6721FE738 /* NSString+FirstLetter.m */,
+				8652959A92ED039A461401098FAE47C3 /* NSString+Util.h */,
+				28FB88AF5D46931F339DF81F348D1E81 /* NSString+Util.m */,
+				3EDB9B40F3AB784B800539AD84887729 /* OpenUrl.h */,
+				E6E271362CDE10C91D2BFB014440AC01 /* OpenUrl.m */,
+				9FF31D8D3AFF1310785F2E32AF3A03DD /* TS_ToolKit.h */,
+				499DB4C646C42361842C7675186612A1 /* TS_ToolKitHeader.h */,
+				54E9D5601EE3A66E50112EC8A0B0A6A0 /* UIColor+ColorTool.h */,
+				F0BA4B3815A33BF59A6662D88E9E43BD /* UIColor+ColorTool.m */,
+				7D07969245B07A99E711AFBF1186EA67 /* UIImage+Cast.h */,
+				20A483C53CA22675D6DEA22F339C02F4 /* UIImage+Cast.m */,
+				CEDF9A27C97FD55EC4E77D523DCBDCDD /* ZCChinaLocation.h */,
+				7E28AC7EBFDAB47EF1B7063B1A6A7D11 /* ZCChinaLocation.m */,
+				EDAA31F14F1988C728D43D284C0CC7EF /* Support Files */,
+			);
+			path = TS_ToolKit;
+			sourceTree = "<group>";
+		};
+		56479225FC497094CBB551F06641BE34 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DC6C582589D5F5F7EBA4EDFCC32A5 /* Pods-TS_BaseViewController */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F70BBBA7785067C999C82D80EDD8A7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF601084937CC3775A902221EF402CF3 /* JXTAlertManager */,
+				443500AC7D922E7589101B54B7B79837 /* TS_ToolKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5F70BBBA7785067C999C82D80EDD8A7A /* Pods */,
+				EAE9A801EEAFB2076403C666E7742CD1 /* Products */,
+				56479225FC497094CBB551F06641BE34 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AD5DC6C582589D5F5F7EBA4EDFCC32A5 /* Pods-TS_BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				08A979F21505C4EF698F0165B99A7F77 /* Info.plist */,
+				3FD3484B9F5AC09D347EB3158C9308D3 /* Pods-TS_BaseViewController.modulemap */,
+				BE03EF0F60F80EED6217123DB1440A6A /* Pods-TS_BaseViewController-acknowledgements.markdown */,
+				8F9F936E05AA00DE6675FEC34650AF4A /* Pods-TS_BaseViewController-acknowledgements.plist */,
+				D5CD76A871D92826DDB4A245BBFF1C0D /* Pods-TS_BaseViewController-dummy.m */,
+				E40AE57B5B65A48F99BB452CE79F94E7 /* Pods-TS_BaseViewController-frameworks.sh */,
+				FA2AF91403EC58D74A3DED5800CF6E0A /* Pods-TS_BaseViewController-resources.sh */,
+				75F61345929DBFF78BF64535767F5EA0 /* Pods-TS_BaseViewController-umbrella.h */,
+				5C362B5E64936616C4CE3498E2F77DC6 /* Pods-TS_BaseViewController.debug.xcconfig */,
+				AEA266FD9A2B929F5005E443BBB6121A /* Pods-TS_BaseViewController.release.xcconfig */,
+			);
+			name = "Pods-TS_BaseViewController";
+			path = "Target Support Files/Pods-TS_BaseViewController";
+			sourceTree = "<group>";
+		};
+		C63842BF7B7F92D83190EE677C1DB151 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				262F78EC73CC4422FF865E0F63CAE8DB /* Info.plist */,
+				85ED421731AFE091694F3CEA93CAB4F7 /* JXTAlertManager.modulemap */,
+				35CA30965F31A79082989E689DE208CF /* JXTAlertManager.xcconfig */,
+				C9F424819A507FA79C8848FD0D1E15AC /* JXTAlertManager-dummy.m */,
+				9BDDAE84B74E17259C78B25D44C2C037 /* JXTAlertManager-prefix.pch */,
+				21E8E78DF75249161D167BE3CB2B334A /* JXTAlertManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JXTAlertManager";
+			sourceTree = "<group>";
+		};
+		EAE9A801EEAFB2076403C666E7742CD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06C3D52F2E43DE769291BFD070F2F657 /* JXTAlertManager.framework */,
+				7FE88AE8511829CF09101926CB7F57C6 /* Pods_TS_BaseViewController.framework */,
+				488FC1045ADED5F6B53FA8D62BF3EA2A /* TS_ToolKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDAA31F14F1988C728D43D284C0CC7EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52B915E1DF4CE423F268C40BC5087BE8 /* Info.plist */,
+				CA948B3D7F85FE9433DC568CBA33D983 /* TS_ToolKit.modulemap */,
+				E79D7628F679AE1473E186C6ADA85516 /* TS_ToolKit.xcconfig */,
+				0287A2CD684EADEFCC42CA3E10755AA3 /* TS_ToolKit-dummy.m */,
+				BB97EBACB94914727A0DEE2BA133CE3B /* TS_ToolKit-prefix.pch */,
+				680C42F967579089E43BE638732D1CCE /* TS_ToolKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TS_ToolKit";
+			sourceTree = "<group>";
+		};
+		FF601084937CC3775A902221EF402CF3 /* JXTAlertManager */ = {
+			isa = PBXGroup;
+			children = (
+				058D89AC26AFDDECB4DEC60DFF2FF2AA /* JXTAlertController.h */,
+				1B1D7D10903509D0D1A45C9A4D957D71 /* JXTAlertController.m */,
+				5DB2534DFCF90F342ECD112373375754 /* JXTAlertManagerHeader.h */,
+				90467F563F6757418063136BBE6E9AEA /* JXTAlertView.h */,
+				07E87A8C62EAC8DE3966E643970752DF /* JXTAlertView.m */,
+				C63842BF7B7F92D83190EE677C1DB151 /* Support Files */,
+			);
+			path = JXTAlertManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		169FFC686EEC05BF5505A1E0595D63C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C2C2174BFA1A5B7AF610D0D90E1961 /* JXTAlertController.h in Headers */,
+				492E1C02743E3CC4D7DFC85F63C9AD8D /* JXTAlertManager-umbrella.h in Headers */,
+				DBD3738F9D0F3863267A48B53785FC26 /* JXTAlertManagerHeader.h in Headers */,
+				B89D527C3E397FFC684A951F7EA8181D /* JXTAlertView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4D299A9F403912934558E111758918 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EE96C0EA4F86A6BF4B923ADB7500E4 /* Pods-TS_BaseViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC808F7108546A965981049F9E95B7FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D520BA0E3F738C05C14C941BD21C3A /* AppStoreUtil.h in Headers */,
+				E888CE6ED0BE7F4D374EF943411B0BD5 /* DateUtil.h in Headers */,
+				C0300D6261BD0C74C1D942A70706CE21 /* NSString+ByteLength.h in Headers */,
+				5F3631B1828DD74C4832125B4BFD3501 /* NSString+CaculateHeight.h in Headers */,
+				5E800E04CD4FBD3FC36A1BF771356941 /* NSString+ConvertDate.h in Headers */,
+				C207A7E7863D96335BB14767CFD73C07 /* NSString+FirstLetter.h in Headers */,
+				12C928F1C21E3A89DEB679A5DD369A14 /* NSString+Util.h in Headers */,
+				611869FC3A8F35CE9C79BF531258FCC9 /* OpenUrl.h in Headers */,
+				A73F333B1C20C47B33ADC4CE0F5E1537 /* TS_ToolKit-umbrella.h in Headers */,
+				56231EACF106E3C5184964A37304A199 /* TS_ToolKit.h in Headers */,
+				BE30366FF47469E4A974224C3AF09391 /* TS_ToolKitHeader.h in Headers */,
+				4492E2737243D281467F6388C3C97C51 /* UIColor+ColorTool.h in Headers */,
+				642592AA6465F5C1EB0968F24C40241F /* UIImage+Cast.h in Headers */,
+				B2A1C9FB202BABC0240BB4826BC396DA /* ZCChinaLocation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		762F288645F781AD824C0CE23B3904AE /* JXTAlertManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCADA91C0A8B2863294803BA722C5FAF /* Build configuration list for PBXNativeTarget "JXTAlertManager" */;
+			buildPhases = (
+				169FFC686EEC05BF5505A1E0595D63C4 /* Headers */,
+				79187170682CC7A09CFC302344B41438 /* Sources */,
+				594C4B170BF725293816DD59B3445729 /* Frameworks */,
+				747C1B7262A75F2365026237CA5A8FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXTAlertManager;
+			productName = JXTAlertManager;
+			productReference = 06C3D52F2E43DE769291BFD070F2F657 /* JXTAlertManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C473834BD74086E5B91930E71FEE1682 /* Pods-TS_BaseViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA365537080A3209B15441C2AD3BF47 /* Build configuration list for PBXNativeTarget "Pods-TS_BaseViewController" */;
+			buildPhases = (
+				CC4D299A9F403912934558E111758918 /* Headers */,
+				75963589530C564AB021ADD60477E7CD /* Sources */,
+				4A54D6CBB96993F7A645D2872E805C6D /* Frameworks */,
+				88E1F267AC647F78B09018B16E60B47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F48011564FE94D24F2C3DD21EAD597 /* PBXTargetDependency */,
+				6853950955B8E188CD72F2F64B00B21B /* PBXTargetDependency */,
+			);
+			name = "Pods-TS_BaseViewController";
+			productName = "Pods-TS_BaseViewController";
+			productReference = 7FE88AE8511829CF09101926CB7F57C6 /* Pods_TS_BaseViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D879BABAAD006AEAFAACEBC56CF46058 /* TS_ToolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B7C291D81DB526D1C80E148432E3B6 /* Build configuration list for PBXNativeTarget "TS_ToolKit" */;
+			buildPhases = (
+				EC808F7108546A965981049F9E95B7FD /* Headers */,
+				A2FCE61E237D084AFF63D3DE8D06F02C /* Sources */,
+				EBE6C9B6CB530C7F68CC7F2EFF296E1C /* Frameworks */,
+				681186507619808A354E899CD1575290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TS_ToolKit;
+			productName = TS_ToolKit;
+			productReference = 488FC1045ADED5F6B53FA8D62BF3EA2A /* TS_ToolKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EAE9A801EEAFB2076403C666E7742CD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				762F288645F781AD824C0CE23B3904AE /* JXTAlertManager */,
+				C473834BD74086E5B91930E71FEE1682 /* Pods-TS_BaseViewController */,
+				D879BABAAD006AEAFAACEBC56CF46058 /* TS_ToolKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		681186507619808A354E899CD1575290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747C1B7262A75F2365026237CA5A8FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E1F267AC647F78B09018B16E60B47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75963589530C564AB021ADD60477E7CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66952533F0591F0056694AC50CF97433 /* Pods-TS_BaseViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79187170682CC7A09CFC302344B41438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E31DEC40EA241D2D7CCA9F0239F9543 /* JXTAlertController.m in Sources */,
+				48289D9342412F6E372EC7D20EE3BF5D /* JXTAlertManager-dummy.m in Sources */,
+				D60FE6D1629DFC7AB0BBACECE7DE74E8 /* JXTAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FCE61E237D084AFF63D3DE8D06F02C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DB35450583BBE0AEC14824976132CC /* AppStoreUtil.m in Sources */,
+				9767D49F79894C0F6779FA5FDA2A28B3 /* DateUtil.m in Sources */,
+				B9E8916817792191EDCAD53B28F3622A /* NSString+ByteLength.m in Sources */,
+				D25141D903705D0D727B218F5E13DDD3 /* NSString+CaculateHeight.m in Sources */,
+				9AA721350B2A7899C22A5CDECCD49523 /* NSString+ConvertDate.m in Sources */,
+				0094F8E0098AE74EA84AE9B09F794263 /* NSString+FirstLetter.m in Sources */,
+				83F01CAE4023E4D248EFA7B154A11E5B /* NSString+Util.m in Sources */,
+				C3B1D06B8FD93EB3CB03E338D275CA6A /* OpenUrl.m in Sources */,
+				EA3E61AC30AFA47BA264A525B3DB4BCB /* TS_ToolKit-dummy.m in Sources */,
+				632B9F2972F8B35963B8C3F5B928ED7B /* UIColor+ColorTool.m in Sources */,
+				AF32A174B90DF2105AECAD57B9559969 /* UIImage+Cast.m in Sources */,
+				A09E5445FDE7EBBB90B820DBDB563B1D /* ZCChinaLocation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6853950955B8E188CD72F2F64B00B21B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TS_ToolKit;
+			target = D879BABAAD006AEAFAACEBC56CF46058 /* TS_ToolKit */;
+			targetProxy = 08CE0C04F813C33920EB64D040FD3A5D /* PBXContainerItemProxy */;
+		};
+		A7F48011564FE94D24F2C3DD21EAD597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXTAlertManager;
+			target = 762F288645F781AD824C0CE23B3904AE /* JXTAlertManager */;
+			targetProxy = 1B4D39FFFEF8BA83DC3953C6637C02C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3539053D70597D18A46144D43D189793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79D7628F679AE1473E186C6ADA85516 /* TS_ToolKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TS_ToolKit/TS_ToolKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TS_ToolKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TS_ToolKit/TS_ToolKit.modulemap";
+				PRODUCT_MODULE_NAME = TS_ToolKit;
+				PRODUCT_NAME = TS_ToolKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		720DD24626BB969F9E230BCCB12D8437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79D7628F679AE1473E186C6ADA85516 /* TS_ToolKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TS_ToolKit/TS_ToolKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TS_ToolKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TS_ToolKit/TS_ToolKit.modulemap";
+				PRODUCT_MODULE_NAME = TS_ToolKit;
+				PRODUCT_NAME = TS_ToolKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7179602CE0CA11792A3D9902C616AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA266FD9A2B929F5005E443BBB6121A /* Pods-TS_BaseViewController.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TS_BaseViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TS_BaseViewController/Pods-TS_BaseViewController.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE66367BDAFF582A7522D3ADA1C3D98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C362B5E64936616C4CE3498E2F77DC6 /* Pods-TS_BaseViewController.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TS_BaseViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TS_BaseViewController/Pods-TS_BaseViewController.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E00E281A5E07DB19DAC0D418B50BD53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35CA30965F31A79082989E689DE208CF /* JXTAlertManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXTAlertManager/JXTAlertManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXTAlertManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXTAlertManager/JXTAlertManager.modulemap";
+				PRODUCT_MODULE_NAME = JXTAlertManager;
+				PRODUCT_NAME = JXTAlertManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE375FAA44407FE8EA71EB1F722B3E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35CA30965F31A79082989E689DE208CF /* JXTAlertManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXTAlertManager/JXTAlertManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXTAlertManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXTAlertManager/JXTAlertManager.modulemap";
+				PRODUCT_MODULE_NAME = JXTAlertManager;
+				PRODUCT_NAME = JXTAlertManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA365537080A3209B15441C2AD3BF47 /* Build configuration list for PBXNativeTarget "Pods-TS_BaseViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE66367BDAFF582A7522D3ADA1C3D98B /* Debug */,
+				B7179602CE0CA11792A3D9902C616AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B7C291D81DB526D1C80E148432E3B6 /* Build configuration list for PBXNativeTarget "TS_ToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3539053D70597D18A46144D43D189793 /* Debug */,
+				720DD24626BB969F9E230BCCB12D8437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCADA91C0A8B2863294803BA722C5FAF /* Build configuration list for PBXNativeTarget "JXTAlertManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE375FAA44407FE8EA71EB1F722B3E28 /* Debug */,
+				E00E281A5E07DB19DAC0D418B50BD53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

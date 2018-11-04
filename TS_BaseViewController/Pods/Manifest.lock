@@ -1,0 +1,28 @@
+PODS:
+  - JXTAlertManager (1.0.2)
+  - TS_ToolKit (1.0.2)
+
+DEPENDENCIES:
+  - JXTAlertManager
+  - TS_ToolKit (from `https://github.com/StoneStoneStoneWang/TS_ToolKit.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JXTAlertManager
+
+EXTERNAL SOURCES:
+  TS_ToolKit:
+    :git: https://github.com/StoneStoneStoneWang/TS_ToolKit.git
+
+CHECKOUT OPTIONS:
+  TS_ToolKit:
+    :commit: 4749e70166a7a78e18bd74e220c553af3d7875a1
+    :git: https://github.com/StoneStoneStoneWang/TS_ToolKit.git
+
+SPEC CHECKSUMS:
+  JXTAlertManager: 71a89e90ac1a6d72862fbe884eab513cb243a344
+  TS_ToolKit: fa0ca262cf57adac96a9309b89213a7be5c3782b
+
+PODFILE CHECKSUM: 233e4f7285cd7982212ba1b76cdfab4c14ae0717
+
+COCOAPODS: 1.5.3

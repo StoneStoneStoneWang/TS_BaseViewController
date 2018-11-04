@@ -1,0 +1,6 @@
+framework module JXTAlertManager {
+  umbrella header "JXTAlertManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

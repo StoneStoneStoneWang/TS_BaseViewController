@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "TS_BaseViewController"
-s.version      = "0.0.1"
+s.version      = "1.0.0"
 s.summary      = "A Lib For ViewController."
 s.description  = <<-DESC
 viewcontroller的基类

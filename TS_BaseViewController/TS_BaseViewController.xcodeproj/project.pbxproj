@@ -27,6 +27,7 @@
 		6C6B4266218F02AB000E4E3E /* UIViewController+Call.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6B4265218F02AB000E4E3E /* UIViewController+Call.m */; };
 		6C6B4272218F0FD4000E4E3E /* TSConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C6B4271218F0FD4000E4E3E /* TSConfig.plist */; };
 		6C6B4279218F1936000E4E3E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C6B4278218F1936000E4E3E /* Podfile */; };
+		6C6B427E218FE797000E4E3E /* UIViewController+PhotoShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6B427D218FE797000E4E3E /* UIViewController+PhotoShow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,9 @@
 		6C6B426B218F0DE7000E4E3E /* TSMyNaviBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSMyNaviBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6B4271218F0FD4000E4E3E /* TSConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TSConfig.plist; sourceTree = "<group>"; };
 		6C6B4278218F1936000E4E3E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6C6B427A218FE142000E4E3E /* TS_BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TS_BaseViewController.h; sourceTree = "<group>"; };
+		6C6B427C218FE797000E4E3E /* UIViewController+PhotoShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PhotoShow.h"; sourceTree = "<group>"; };
+		6C6B427D218FE797000E4E3E /* UIViewController+PhotoShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PhotoShow.m"; sourceTree = "<group>"; };
 		7B00219871A3A74669E97672 /* Pods-TS_BaseViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TS_BaseViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-TS_BaseViewController/Pods-TS_BaseViewController.release.xcconfig"; sourceTree = "<group>"; };
 		B99471CF8DA77ED66EF20766 /* Pods_TS_BaseViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TS_BaseViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -185,12 +189,14 @@
 		6C6B4244218EFBC5000E4E3E /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				6C6B427B218FE743000E4E3E /* UIViewController+PhotoShow */,
 				6C6B4260218EFC02000E4E3E /* UIViewController+StatusBar */,
 				6C6B4246218EFBC5000E4E3E /* UIViewController+Orientation */,
 				6C6B424D218EFBC5000E4E3E /* BarButtonItem */,
 				6C6B4250218EFBC5000E4E3E /* TSNavigationController */,
 				6C6B4253218EFBC5000E4E3E /* VC */,
 				6C6B4258218EFBC5000E4E3E /* UIViewController+Call */,
+				6C6B427A218FE142000E4E3E /* TS_BaseViewController.h */,
 			);
 			name = Code;
 			path = ../../Code;
@@ -254,6 +260,15 @@
 				6C6B4262218EFC02000E4E3E /* UIViewController+StatusBar.m */,
 			);
 			path = "UIViewController+StatusBar";
+			sourceTree = "<group>";
+		};
+		6C6B427B218FE743000E4E3E /* UIViewController+PhotoShow */ = {
+			isa = PBXGroup;
+			children = (
+				6C6B427C218FE797000E4E3E /* UIViewController+PhotoShow.h */,
+				6C6B427D218FE797000E4E3E /* UIViewController+PhotoShow.m */,
+			);
+			path = "UIViewController+PhotoShow";
 			sourceTree = "<group>";
 		};
 		7951BD7D9587B3E6FB958E39 /* Pods */ = {
@@ -486,6 +501,7 @@
 			files = (
 				6C6B4259218EFBC5000E4E3E /* UINavigationController+Orientation.m in Sources */,
 				6C6B4217218EFB25000E4E3E /* ViewController.m in Sources */,
+				6C6B427E218FE797000E4E3E /* UIViewController+PhotoShow.m in Sources */,
 				6C6B425A218EFBC5000E4E3E /* UITabBarController+Orientation.m in Sources */,
 				6C6B4222218EFB2A000E4E3E /* main.m in Sources */,
 				6C6B4214218EFB25000E4E3E /* AppDelegate.m in Sources */,

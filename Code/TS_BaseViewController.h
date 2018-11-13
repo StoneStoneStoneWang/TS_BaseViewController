@@ -29,6 +29,4 @@
 
 #import "UIViewController+StatusBar.h"
 
-#import 
-
 #endif /* TS_BaseViewController_h */

@@ -9,7 +9,7 @@
 #import "UIViewController+PhotoShow.h"
 #import <objc/runtime.h>
 #import "JXTAlertController.h"
-
+#import <Photos/Photos.h>
 @implementation UIViewController (PhotoShow)
 
 - (void)setImageicker:(UIImagePickerController *)imageicker {
@@ -27,6 +27,14 @@
     objc_setAssociatedObject(self, @"mediaType", @(mediaType), OBJC_ASSOCIATION_RETAIN);
 }
 
+- (void)setCollectionName:(NSString *)collectionName {
+    
+    objc_setAssociatedObject(self, @"collectionName", collectionName, OBJC_ASSOCIATION_COPY_NONATOMIC);
+}
+- (NSString *)collectionName {
+    
+    return objc_getAssociatedObject(self, @"collectionName");
+}
 - (PhotoLibraryType)mediaType {
     
     return [objc_getAssociatedObject(self, @"mediaType") integerValue];
@@ -197,17 +205,30 @@
             
             if (self.writeToAlbum) {
                 
-                ALAssetsLibrary *assetsLibrary = [[ALAssetsLibrary alloc]init];
-                
-                [assetsLibrary writeVideoAtPathToSavedPhotosAlbum:mediaURL completionBlock:^(NSURL *assetURL,NSError *error) {
-                    // 如果没有错误，显示保存成功。
-                    if (!error){
-                        NSLog(@"视频保存成功！");
+                //保存图片
+                __block PHAssetCollectionChangeRequest *req = nil;
+                // 1. 存储图片到"相机胶卷"
+                [[PHPhotoLibrary sharedPhotoLibrary] performChanges:^{
+                    // 新建一个PHAssetCreationRequest对象
+                    PHAssetCollection *collection = [self getCollection];
+                    
+                    req = [PHAssetCollectionChangeRequest changeRequestForAssetCollection:collection];
+                    
+                } completionHandler:^(BOOL success, NSError * _Nullable error) {
+                    // 2. 获得相册对象
+                    
+                    // 3. 将“相机胶卷”中的图片添加到新的相册
+                    [[PHPhotoLibrary sharedPhotoLibrary] performChanges:^{
+    
+//                        // 根据唯一标示获得相片对象
+                        PHAsset *asset = [PHAsset fetchAssetsWithALAssetURLs:@[mediaURL] options:nil].firstObject;
+                        // 添加图片到相册中
+                        [req addAssets:@[asset]];
                         
-                    } else {
+                    } completionHandler:^(BOOL success, NSError * _Nullable error) {
                         
-                        NSLog(@"保存视频出现错误：%@", error);
-                    }
+                        
+                    }];
                 }];
             }
         }
@@ -216,6 +237,26 @@
     }
     
     [picker dismissViewControllerAnimated:true completion:nil];
+}
+
+- (PHAssetCollection *)getCollection {
+    // 先获得之前创建过的相册
+    PHFetchResult<PHAssetCollection *> *collectionResult = [PHAssetCollection fetchAssetCollectionsWithType:PHAssetCollectionTypeAlbum subtype:PHAssetCollectionSubtypeAlbumRegular options:nil];
+    for (PHAssetCollection *collection in collectionResult) {
+        if ([collection.localizedTitle isEqualToString:self.collectionName || [self.collectionName isEqualToString:@""] ? @"自定义相册" : self.collectionName]) {
+            return collection;
+        }
+    }
+    
+    // 如果相册不存在,就创建新的相册(文件夹)
+    __block NSString *collectionId = nil; // __block修改block外部的变量的值
+    // 这个方法会在相册创建完毕后才会返回
+    [[PHPhotoLibrary sharedPhotoLibrary] performChangesAndWait:^{
+        // 新建一个PHAssertCollectionChangeRequest对象, 用来创建一个新的相册
+        collectionId = [PHAssetCollectionChangeRequest creationRequestForAssetCollectionWithTitle:self.collectionName || [self.collectionName isEqualToString:@""] ? @"自定义相册" : self.collectionName].placeholderForCreatedAssetCollection.localIdentifier;
+    } error:nil];
+    
+    return [PHAssetCollection fetchAssetCollectionsWithLocalIdentifiers:@[collectionId] options:nil].firstObject;
 }
 - (void)onSelectImage:(UIImage *)img {
     

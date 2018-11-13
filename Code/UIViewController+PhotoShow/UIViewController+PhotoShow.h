@@ -59,6 +59,10 @@ typedef NS_ENUM(NSInteger, PhotoLibraryType) {
 
 @property (nonatomic ,strong) NSArray<NSString *> *mediaTypes;
 
+/*
+ 相簿名称
+ */
+@property (nonatomic ,copy) NSString *collectionName;
 
 - (void)photoActionShow;
 

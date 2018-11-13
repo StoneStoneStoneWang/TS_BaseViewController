@@ -6,9 +6,6 @@
 //  Copyright © 2018年 three stone 王. All rights reserved.
 //
 
-#ifndef TS_BaseViewController_h
-#define TS_BaseViewController_h
-
 #import "TSBaseViewController.h"
 
 #import "UIViewController+Call.h"
@@ -28,5 +25,3 @@
 #import "UINavigationController+Orientation.h"
 
 #import "UIViewController+StatusBar.h"
-
-#endif /* TS_BaseViewController_h */

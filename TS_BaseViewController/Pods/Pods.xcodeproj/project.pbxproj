@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -68,7 +68,7 @@
 /* Begin PBXFileReference section */
 		0287A2CD684EADEFCC42CA3E10755AA3 /* TS_ToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TS_ToolKit-dummy.m"; sourceTree = "<group>"; };
 		058D89AC26AFDDECB4DEC60DFF2FF2AA /* JXTAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXTAlertController.h; path = JXTAlertManager/AlertController/JXTAlertController.h; sourceTree = "<group>"; };
-		06C3D52F2E43DE769291BFD070F2F657 /* JXTAlertManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXTAlertManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C3D52F2E43DE769291BFD070F2F657 /* JXTAlertManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXTAlertManager.framework; path = JXTAlertManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E87A8C62EAC8DE3966E643970752DF /* JXTAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXTAlertView.m; path = JXTAlertManager/AlertView/JXTAlertView.m; sourceTree = "<group>"; };
 		08A979F21505C4EF698F0165B99A7F77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08BDD0DDDB650C4D5D89210A17567488 /* NSString+ByteLength.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ByteLength.h"; path = "Code/NSString+ByteLength/NSString+ByteLength.h"; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		38818A250E36764911E42EFB84F5C44C /* AppStoreUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AppStoreUtil.m; path = Code/AppStoreUtil/AppStoreUtil.m; sourceTree = "<group>"; };
 		3EDB9B40F3AB784B800539AD84887729 /* OpenUrl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenUrl.h; path = Code/OpenUrl/OpenUrl.h; sourceTree = "<group>"; };
 		3FD3484B9F5AC09D347EB3158C9308D3 /* Pods-TS_BaseViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TS_BaseViewController.modulemap"; sourceTree = "<group>"; };
-		488FC1045ADED5F6B53FA8D62BF3EA2A /* TS_ToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TS_ToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		488FC1045ADED5F6B53FA8D62BF3EA2A /* TS_ToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TS_ToolKit.framework; path = TS_ToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		499DB4C646C42361842C7675186612A1 /* TS_ToolKitHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TS_ToolKitHeader.h; path = Code/TS_ToolKitHeader.h; sourceTree = "<group>"; };
 		4C7BBD901140FE0CCCF2625C6E49C4C5 /* AppStoreUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppStoreUtil.h; path = Code/AppStoreUtil/AppStoreUtil.h; sourceTree = "<group>"; };
 		4F032863C772AC8C528391B6721FE738 /* NSString+FirstLetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FirstLetter.m"; path = "Code/NSString+FirstLetter/NSString+FirstLetter.m"; sourceTree = "<group>"; };
@@ -99,12 +99,12 @@
 		75F61345929DBFF78BF64535767F5EA0 /* Pods-TS_BaseViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TS_BaseViewController-umbrella.h"; sourceTree = "<group>"; };
 		7D07969245B07A99E711AFBF1186EA67 /* UIImage+Cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Cast.h"; path = "Code/UIImage+Cast/UIImage+Cast.h"; sourceTree = "<group>"; };
 		7E28AC7EBFDAB47EF1B7063B1A6A7D11 /* ZCChinaLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCChinaLocation.m; path = Code/ZCChinaLocation/ZCChinaLocation.m; sourceTree = "<group>"; };
-		7FE88AE8511829CF09101926CB7F57C6 /* Pods_TS_BaseViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TS_BaseViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE88AE8511829CF09101926CB7F57C6 /* Pods_TS_BaseViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TS_BaseViewController.framework; path = "Pods-TS_BaseViewController.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85ED421731AFE091694F3CEA93CAB4F7 /* JXTAlertManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXTAlertManager.modulemap; sourceTree = "<group>"; };
 		8652959A92ED039A461401098FAE47C3 /* NSString+Util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Util.h"; path = "Code/NSString+Util/NSString+Util.h"; sourceTree = "<group>"; };
 		8F9F936E05AA00DE6675FEC34650AF4A /* Pods-TS_BaseViewController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TS_BaseViewController-acknowledgements.plist"; sourceTree = "<group>"; };
 		90467F563F6757418063136BBE6E9AEA /* JXTAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXTAlertView.h; path = JXTAlertManager/AlertView/JXTAlertView.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BDDAE84B74E17259C78B25D44C2C037 /* JXTAlertManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXTAlertManager-prefix.pch"; sourceTree = "<group>"; };
 		9FF31D8D3AFF1310785F2E32AF3A03DD /* TS_ToolKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TS_ToolKit.h; path = Code/TS_ToolKit.h; sourceTree = "<group>"; };
 		AEA266FD9A2B929F5005E443BBB6121A /* Pods-TS_BaseViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TS_BaseViewController.release.xcconfig"; sourceTree = "<group>"; };
@@ -200,6 +200,7 @@
 				7E28AC7EBFDAB47EF1B7063B1A6A7D11 /* ZCChinaLocation.m */,
 				EDAA31F14F1988C728D43D284C0CC7EF /* Support Files */,
 			);
+			name = TS_ToolKit;
 			path = TS_ToolKit;
 			sourceTree = "<group>";
 		};
@@ -297,6 +298,7 @@
 				07E87A8C62EAC8DE3966E643970752DF /* JXTAlertView.m */,
 				C63842BF7B7F92D83190EE677C1DB151 /* Support Files */,
 			);
+			name = JXTAlertManager;
 			path = JXTAlertManager;
 			sourceTree = "<group>";
 		};
@@ -527,7 +529,11 @@
 				INFOPLIST_FILE = "Target Support Files/TS_ToolKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/TS_ToolKit/TS_ToolKit.modulemap";
 				PRODUCT_MODULE_NAME = TS_ToolKit;
 				PRODUCT_NAME = TS_ToolKit;
@@ -595,7 +601,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -618,7 +625,11 @@
 				INFOPLIST_FILE = "Target Support Files/TS_ToolKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/TS_ToolKit/TS_ToolKit.modulemap";
 				PRODUCT_MODULE_NAME = TS_ToolKit;
 				PRODUCT_NAME = TS_ToolKit;
@@ -715,7 +726,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-TS_BaseViewController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TS_BaseViewController/Pods-TS_BaseViewController.modulemap";
 				OTHER_LDFLAGS = "";
@@ -749,7 +764,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-TS_BaseViewController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TS_BaseViewController/Pods-TS_BaseViewController.modulemap";
 				OTHER_LDFLAGS = "";
@@ -782,7 +801,11 @@
 				INFOPLIST_FILE = "Target Support Files/JXTAlertManager/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/JXTAlertManager/JXTAlertManager.modulemap";
 				PRODUCT_MODULE_NAME = JXTAlertManager;
 				PRODUCT_NAME = JXTAlertManager;
@@ -813,7 +836,11 @@
 				INFOPLIST_FILE = "Target Support Files/JXTAlertManager/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/JXTAlertManager/JXTAlertManager.modulemap";
 				PRODUCT_MODULE_NAME = JXTAlertManager;
 				PRODUCT_NAME = JXTAlertManager;

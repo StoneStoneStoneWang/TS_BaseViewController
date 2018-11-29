@@ -1,6 +1,8 @@
 # TS_BaseViewController
 A lib for base vc。
 
+###  pod 'TS_BaseViewController',:git=>'https://github.com/StoneStoneStoneWang/TS_BaseViewController.git'
+
 ##  基于我理解的ViewController，以及开发的这么多个项目写出了BaseVC
 ##  使用的技术面向对象的三大特征（继承、多态），有运行时添加属性、
 ### 1.继承自UIViewController的TSBaseViewController
@@ -20,3 +22,4 @@ A lib for base vc。
         Call 拨打电话 
         
         PhotoShow
+        
